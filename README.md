@@ -9,27 +9,5 @@ In order to run this project after clone in favor of train the language model it
 Once the train is done we could make predictions with using of **python3 language_word_identifier.py predict**
 
 Example output:
+![Screenshot from 2020-03-09 15-33-16](https://user-images.githubusercontent.com/23243761/76222845-71bbe600-621b-11ea-932b-4b5fd5dda6f8.png)
 
-> python3 language_word_identifier.py predict
-Language:['es']	 Number of n-gram: 5641
-Language:['de']	 Number of n-gram: 6976
-Language:['ms']	 Number of n-gram: 4785
-Language:['sv']	 Number of n-gram: 5791
-Language:['en']	 Number of n-gram: 5704
-Predicting words (type DONE to quit):
-What to predict? > Hello World
-Predicting: Hello World [Guessed: en, Score: 1.0][Possible: sv, Score: 0.49]
-What to predict? > Apa khabar
-Predicting: Apa khabar  [Guessed: ms, Score: 1.0][Possible: sv, Score: 0.19]
-What to predict? > Gute Nacht
-Predicting: Gute Nacht  [Guessed: de, Score: 1.0][Possible: en, Score: 0.50]
-What to predict? > Vad heter du?
-Predicting: Vad heter du?       [Guessed: sv, Score: 1.0][Possible: en, Score: 0.25]
-What to predict? > Jag alskar dig
-Predicting: Jag alskar dig	[Guessed: sv, Score: 1.0][Possible: ms, Score: 0.60]
-What to predict? > DONE
-What to predict? > Mucho gusto.
-Predicting: Mucho gusto.	[Guessed: es, Score: 1.0][Possible: en, Score: 0.69]
-What to predict? > Adiós
-Predicting: Adiós	[Guessed: es, Score: 1.0][Possible: ms, Score: 0.31]
-Goodbye.
